@@ -1,0 +1,60 @@
+$margin: 20px;
+
+.img-person {
+    max-width: 140px;
+    max-height: 135px;
+}
+
+.persons-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 10px; 
+}
+.person {
+    margin: $margin;
+    text-align: center;    
+}
+.text-person {
+    color: white;
+}
+
+.white-background {
+    background: white;
+}
+
+.red-footer {
+    height: 80px;
+}
+.white-footer {
+    height: 80px;    
+}
+.action {
+    text-align: center;
+    color: white;
+}
+.voeu-container {
+    padding-top: 50px;
+}
+.voeu-form {
+    width: 100%;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 10px solid #BD112C;
+}
+.voeu-input, .voeu-input:focus {
+    background-color: #f5f5f5;
+    border: 0;
+}
+
+.submit-container {
+    text-align: center;
+}
+.submit-btn {
+    background: #BD112C;
+    color: #fff;
+
+}
+.thanks {
+    text-align: center;
+}
